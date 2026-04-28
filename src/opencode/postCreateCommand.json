@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "sudo curl -fsSL  https://raw.githubusercontent.com/pmalacho-mit/devcontainers/refs/heads/main/src/opencode/install.sh -o /usr/local/bin/opencode && sudo chmod +x /usr/local/bin/opencode"
+}

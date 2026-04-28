@@ -1,0 +1,5 @@
+{
+  "features": {
+    "ghcr.io/robbert229/devcontainer-features/postgresql-client:latest": {}
+  }
+}

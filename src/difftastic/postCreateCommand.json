@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/pmalacho-mit/devcontainers/refs/heads/main/src/difftastic/install.sh | sudo install -m 0755 /dev/stdin /usr/local/bin/difftastic && git config diff.external difftastic"
+}

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.common.json",
+    "./feature.node-24.json"
+  ]
+}

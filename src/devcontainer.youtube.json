@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.python-default.json",
+    "./postCreateCommand.yt-dlp.json"
+  ]
+}

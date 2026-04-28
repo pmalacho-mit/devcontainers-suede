@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.python-default.json",
+    "./docker-outside-of-docker"
+  ]
+}

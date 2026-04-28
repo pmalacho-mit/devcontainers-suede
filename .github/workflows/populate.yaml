@@ -1,0 +1,18 @@
+name: Populate Devcontainers
+on: [push]
+permissions:
+  contents: write
+jobs:
+  populate:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run populate-devcontainers.sh
+        run: ./scripts/populate-devcontainers.sh
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "chore: update released devcontainers [skip ci]"
+          file_pattern: 'release/*.json'

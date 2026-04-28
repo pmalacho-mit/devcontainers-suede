@@ -1,0 +1,13 @@
+name: Test Scripts
+on: [push]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run test.sh
+        run: ./scripts/test.sh

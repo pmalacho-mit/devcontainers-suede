@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "./image.ubuntu-24.json",
+    "./feature.git-lfs.json",
+    "./feature.git-subrepo.json",
+    "./feature.github-cli.json",
+    "./feature.vim.json",
+    "./customization.claude.json",
+    "./customization.copilot.json",
+    "./customization.tab-size-2.json",
+    "./customization.format-on-save.json",
+    "./customization.markdown.json",
+    "./docker-outside-of-docker",
+    "./mount.ssh.json",
+    "./postCreateCommand.inotify-tools.json",
+    "./postCreateCommand.ignore-UseKeychain-in-ssh-config.json",
+    "./postCreateCommand.git-config-vim-as-core-editor.json",
+    "./postCreateCommand.git-config-merge-divergent.json",
+    "./postCreateCommand.codeblockify.json",
+    "./difftastic/postCreateCommand.json"
+  ]
+}

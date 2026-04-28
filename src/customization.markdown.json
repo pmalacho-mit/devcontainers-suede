@@ -1,0 +1,11 @@
+{
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "[markdown]": {
+          "editor.defaultFormatter": null
+        }
+      }
+    }
+  }
+}

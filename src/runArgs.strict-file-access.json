@@ -1,0 +1,3 @@
+{
+  "runArgs": ["--cap-drop=DAC_OVERRIDE", "--cap-drop=DAC_READ_SEARCH"]
+}

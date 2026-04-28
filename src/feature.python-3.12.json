@@ -1,0 +1,7 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/python:latest": {
+      "version": "3.12"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "git config core.editor '/usr/bin/vim'"
+}

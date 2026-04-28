@@ -1,0 +1,15 @@
+{
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "svelte.enable-ts-plugin": true,
+        "[svelte]": {
+          "editor.defaultFormatter": "svelte.svelte-vscode"
+        }
+      },
+      "extensions": [
+        "svelte.svelte-vscode"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.typescript-default.json",
+    "./docker-outside-of-docker"
+  ]
+}

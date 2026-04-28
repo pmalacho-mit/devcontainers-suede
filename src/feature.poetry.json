@@ -1,0 +1,10 @@
+{
+  "features": {
+    "ghcr.io/devcontainers-extra/features/poetry:latest": {
+      "version": "latest"
+    }
+  },
+  "remoteEnv": {
+    "POETRY_VIRTUALENVS_IN_PROJECT": "true"
+  }
+}

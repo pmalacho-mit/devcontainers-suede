@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "(grep -q 'IgnoreUnknown UseKeychain' ~/.ssh/config 2>/dev/null || sed -i '/UseKeychain/i IgnoreUnknown UseKeychain' ~/.ssh/config 2>/dev/null)"
+}

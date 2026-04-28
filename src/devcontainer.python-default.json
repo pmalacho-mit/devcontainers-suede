@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "./devcontainer.common.json",
+    "./feature.python-3.12.json",
+    "./customization.python.json"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.node-default.json",
+    "./customization.typescript.json"
+  ]
+}

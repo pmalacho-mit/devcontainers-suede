@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.svelte-default.json",
+    "./customization.tailwindcss.json"
+  ]
+}

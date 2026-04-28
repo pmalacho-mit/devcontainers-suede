@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./devcontainer.common.json",
+    "./docker-outside-of-docker"
+  ]
+}
