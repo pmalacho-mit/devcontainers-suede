@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "bash -c 'if [ -f \"./install.sh\" ]; then echo \"Found install.sh, executing...\" && bash ./install.sh && echo \"install.sh completed successfully\" || exit 1; else echo \"No install.sh found at project root, skipping\"; fi'"
+}
