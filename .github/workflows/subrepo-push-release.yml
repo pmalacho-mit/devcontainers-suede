@@ -1,7 +1,5 @@
 name: subrepo-push-release
 on:
-  permissions:
-    actions: write
   push:
     branches: [main]
     paths:
