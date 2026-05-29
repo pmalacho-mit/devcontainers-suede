@@ -4,9 +4,9 @@
 ; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
 ;
 [subrepo]
-	remote = https://github.com/pmalacho-mit/devcontainers-suede
-	branch = release
-	commit = 8c03af251ff73946f405065678ae216bbacb507b
-	parent = 85f7ff0fab72233e71d78fdd64d005103f2357e9
+	remote = git@github.com:pmalacho-mit/suede.git
+	branch = workflows/dependency/release
+	commit = 356d96ca08396232a1a0a48ced411e1bceb2c5e0
+	parent = 6648f53710e265b6df0821ca8ee251fc7b75a224
 	method = merge
 	cmdver = 0.4.9
