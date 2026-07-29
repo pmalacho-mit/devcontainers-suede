@@ -1,5 +1,8 @@
 {
   "customizations": {
+    "desolate": {
+      "allowPrivileged": true
+    },
     "vscode": {
       "extensions": [
         "anthropic.claude-code",
