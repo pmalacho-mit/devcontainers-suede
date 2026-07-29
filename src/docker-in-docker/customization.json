@@ -1,5 +1,8 @@
 {
   "customizations": {
+    "desolate": {
+      "allowPrivileged": true
+    },
     "vscode": {
       "extensions": [
         "ms-azuretools.vscode-containers"
