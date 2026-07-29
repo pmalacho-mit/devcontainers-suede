@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "./devcontainer.svelte-default.json",
-    "./docker-outside-of-docker"
-  ]
-}
